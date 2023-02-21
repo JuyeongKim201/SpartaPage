@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+.mytitle{
+    font-family: 'Hahmlet', serif;
+    
+    background-color: green;
+    color: white;
+
+    height: 250px;
+
+    /* 가운데 정렬하기 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* 백그라운드 이미지 삽입 */
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.mytitle > button {
+    width: 250px;
+    height: 50px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 50px;
+
+    margin-top: 20px;
+}
+
+.mytitle > button:hover {
+    border: 2px solid white;
+}
+
+/* 포스트 박스 뼈대 만지기 */
+.postbox{
+    border: 1px solid gray;
+
+    margin: 20px auto 20px auto; 
+    padding:20px 20px 20px 20px;
+
+    width: 500px;
+
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+/* 버튼 가운데 정렬 (가로 정렬) */
+.postbox_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto auto auto;
+}
+
+/* postbox_btn 안에 있는 버튼 태그끼리 간격 넓히기 */
+.postbox_btn > button{
+    margin: 0px 10px 0px 0px;
+}
+
+.mycomment {
+    color: gray;
+}
+
+.mycards {
+    width: 1200px;
+    margin: 20px auto 20px auto;
+}
+
+
+
